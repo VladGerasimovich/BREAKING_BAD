@@ -1,0 +1,52 @@
+.characterPage {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.characterPage a {
+    color: black;
+    background: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 10px;
+    text-decoration: none;
+    width: 100%;
+    transition: 0.7s;
+}
+
+.characterPage a:hover {
+    color: white;
+    background: transparent;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.image {
+    width: 250px;
+    height: 250px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 250px;
+    margin-left: 50px;
+}
+
+.list li {
+    list-style-type: none;
+}
+
+.spinnerBox {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.spinner {
+    width: 180px;
+}
